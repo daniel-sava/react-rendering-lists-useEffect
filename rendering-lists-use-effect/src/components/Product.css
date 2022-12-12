@@ -1,0 +1,75 @@
+.Product .product-card {
+    max-width: 320px;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+}
+
+.Product .product-card .product-image {
+    width: 100%;
+    max-width: 320px;
+}
+
+.Product .product-card .product-title {
+    text-align: center;
+    color: green;
+    margin: 0 0 8px;
+}
+
+.Product .product-card .product-price {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+    margin: 0 0 16px;
+}
+
+.Product .product-card .product-add-to-cart {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: green;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.Product .product-card .product-add-to-wishlist {
+    display: block;
+    margin: 16px auto;
+    color: white;
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.Product .product-card .genius {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Product .product-card .transport {
+    position: absolute;
+    left: 0;
+    top: 64px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bg-yellow {
+    background-color: yellow !important;
+    color: black !important;
+}
